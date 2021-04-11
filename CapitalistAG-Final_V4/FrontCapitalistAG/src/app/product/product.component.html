@@ -1,0 +1,28 @@
+
+    
+<div class="d-block">
+    <div class="row">
+
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div>
+                    <h4 class="productname">{{product.name}}</h4>
+                </div>
+                <div>
+                    <img [src]="'http://localhost:8080/'+product.logo" alt="Error" (click)="startFabrication()" />
+                </div>
+            <div class="card-inner"> 
+                   <div class="header">
+                       <h5 class="costProd">coût : {{product.cout}}</h5>
+                       <h5 class="quantiteProd">quantite : {{product.quantite}}</h5>
+
+            <mat-progress-bar class="progressbar" mode="determinate" [value]="progressbarvalue"></mat-progress-bar>
+        
+    <div class="content">
+        <div class="card-text">
+            <button type=button class="button col-md-5 btn btn-warning btn-md" (click)="onBuy()" *ngIf="_qtmulti != 'Max'" [disabled]="_money < calcCost(quantiteAchetable())">Buy {{_qtmulti}}</button>
+            <button type=button class="button col-md-5 btn btn-warning btn-md" (click)="onBuy()" *ngIf="_qtmulti == 'Max'" [disabled]="calcMaxCanBuy() == 0">Buy X{{calcMaxCanBuy()}}</button>
+        </div>
+    </div>
+</div>
+</div>

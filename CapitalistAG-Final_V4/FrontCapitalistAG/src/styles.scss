@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+   }
+
+   .lesdeux {
+    position: relative;
+   }
+
+   .lesecond {
+    position: absolute;
+    // on met cet élément à 10 pixels du bas de son conteneur
+    // du coup il se superpose à l’autre qui est dans le flux normal
+    bottom: -10px;
+   }
+   

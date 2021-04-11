@@ -1,0 +1,59 @@
+
+    .btn{
+    border: 0;
+    background: #BB8FCE;
+    color: #fff;
+    padding: 8px 20px;  
+    cursor: pointer;
+    transition: 0.5s;
+}
+ 
+    .btn:hover{
+    background: #F39C12;
+}
+
+.progressbar{
+    width: auto;
+    height: 20px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+.card {
+ 
+box-shadow: 11px 10px 24px -16px rgba(0,0,0,0.92);
+-webkit-box-shadow: 11px 10px 24px -16px rgba(0,0,0,0.92);
+-moz-box-shadow: 11px 10px 24px -16px rgba(0,0,0,0.92);
+
+  margin-top:10px;
+  margin-bottom:10px;
+  width:20vw;  
+  text-align: center;
+}
+
+.card > .card-inner {
+  padding:0;
+}
+.card .header h4, h5 {
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+
+.card .content{
+    margin-top: 5px;
+}
+
+
+img {
+    cursor:pointer; 
+    max-width:250px;
+    
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
