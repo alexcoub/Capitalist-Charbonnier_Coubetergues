@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world
+xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='C:\Users\gaetan\CapitalistFinalAG\ServerCapitalistAG\src\main\java\com\example\CapitalistAG\worldSchema.xsd'>
+    <name>F r i e n d s</name>
+    <logo>icones/Friends.png</logo>
+    <money>250000</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>0</angelbonus>
+    <lastupdate></lastupdate>
+    
+    <products>
+        <product>
+            <id>1</id>
+            <name>Cafe</name>
+            <logo>icones/cafe.jpg</logo>
+            <cout>2</cout>
+            <croissance>1.25</croissance>
+            <revenu>2</revenu>
+            <vitesse>100</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>P1</name>
+                    <logo>icones/cafe.jpg</logo>
+                    <seuil>10</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>P2</name>
+                    <logo>icones/cafe.jpg</logo>
+                    <seuil>75</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>P3</name>
+                    <logo>icones/cafe.jpg</logo>
+                    <seuil>150</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+
+        <product>
+            <id>2</id>
+            <name>guitare</name>
+            <logo>icones/guitare.jpg</logo>
+            <cout>5</cout>
+            <croissance>1.50</croissance>
+            <revenu>10</revenu>
+            <vitesse>150</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier> 
+                    <name>Vitesse x2</name>
+                    <logo>icones/guitare.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Production x2</name>
+                    <logo>icones/guitare.jpg</logo>
+                    <seuil>75</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>seuil 150</name>
+                    <logo>icones/guitare.jpg</logo>
+                    <seuil>150</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked>False</unlocked>   
+                </pallier>
+            </palliers>
+        </product>
+
+<product>
+            <id>03</id>
+            <name>theatre</name>
+            <logo>icones/theatre.jpg</logo>
+            <cout>10</cout>
+            <croissance>1.75</croissance>
+            <revenu>100</revenu>
+            <vitesse>300</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier> 
+                        <name>Vitesse x2</name>
+                    <logo>icones/theatre.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Production x2</name>
+                    <logo>icones/theatre.jpg</logo>
+                    <seuil>75</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+            </palliers>
+</product>
+
+<product>
+            <id>04</id>
+            <name>trex</name>
+            <logo>icones/trex.jpg</logo>
+            <cout>25</cout>
+            <croissance>2.00</croissance>
+            <revenu>250</revenu>
+            <vitesse>500</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier> 
+                    <name>Vitesse x2</name>
+                    <logo>icones/trex.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Production x2</name>
+                    <logo>icones/trex.jpg</logo>
+                    <seuil>75</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked>   
+                </pallier>
+            </palliers>
+</product>
+
+<product>
+            <id>5</id>
+            <name>dinde</name>
+            <logo>icones/dinde.jpg</logo>
+            <cout>50</cout>
+            <croissance>2.25</croissance>
+            <revenu>500</revenu>
+            <vitesse>1000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier> 
+                     <name>Vitesse x2</name>
+                    <logo>icones/dinde.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Production x2</name>
+                    <logo>icones/dinde.jpg</logo>
+                    <seuil>75</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked>   
+                </pallier>
+            </palliers>
+        </product>
+
+<product>
+            <id>6</id>
+            <name>janice</name>
+            <logo>icones/janice.jpg</logo>
+            <cout>100</cout>
+            <croissance>2.50</croissance>
+            <revenu>650</revenu>
+            <vitesse>1500</vitesse>
+            <quantite>0</quantite>
+            <timeleft>1500</timeleft>
+            <managerUnlocked>true</managerUnlocked>
+            <palliers>
+                <pallier>   
+                    <name>Vitesse x2</name>
+                    <logo>icones/janice.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Production x2</name>
+                    <logo>icones/janice.jpg</logo>
+                    <seuil>75</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked> 
+                </pallier>
+            </palliers>
+        </product>
+    </products>
+    
+    <allunlocks>
+ <pallier>
+        <name>AllUnlock 1</name>
+        <logo>icones/friends.png</logo>
+        <seuil>2</seuil>
+        <idcible>0</idcible>
+        <ratio>1.5</ratio>
+        <typeratio>GAIN</typeratio>
+        <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+        <name>AllUnlock 2</name>
+        <logo>icones/friends.png</logo>
+        <seuil>50</seuil>
+        <idcible>0</idcible>
+        <ratio>2</ratio>
+        <typeratio>VITESSE</typeratio>
+        <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+        <name>AllUnlock 3</name>
+        <logo>icones/friends.png</logo>
+        <seuil>100</seuil>
+        <idcible>0</idcible>
+        <ratio>3</ratio>
+        <typeratio>GAIN</typeratio>
+        <unlocked>false</unlocked>
+    </pallier>
+    </allunlocks>
+    
+    
+    <upgrades>
+          <pallier>
+            <name>+ Cafe</name>
+            <logo>icones/cafe.jpg</logo>
+            <seuil>250000</seuil>
+            <idcible>0</idcible>
+            <ratio>1.5</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+
+                <pallier>
+            <name>+ guitare</name>
+            <logo>icones/guitare.jpg</logo>
+            <seuil>500000</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+
+                <pallier>
+            <name>+ theatre</name>
+            <logo>icones/theatre.jpg</logo>
+            <seuil>750000</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+
+                <pallier>
+            <name>+ trex</name>
+            <logo>icones/trex.jpg</logo>
+            <seuil>1000000</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+
+                <pallier>
+            <name>+ dinde</name>
+            <logo>icones/dinde.jpg</logo>
+            <seuil>1500000</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+
+                <pallier>
+            <name>+ janice</name>
+            <logo>icones/janice.jpg</logo>
+            <seuil>2000000</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+  </upgrades>
+
+
+    <angelupgrades>
+        
+    </angelupgrades>
+    
+    <managers>
+         <pallier>
+            <name>Rachel</name>
+            <logo>icones/rachel.jpg</logo>
+            <seuil>1000</seuil>
+            <idcible>1</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Phoebe</name>
+            <logo>icones/phoebe.png</logo>
+            <seuil>15000</seuil>
+            <idcible>2</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Joey</name>
+            <logo>icones/Joey.jpg</logo>
+            <seuil>100000</seuil>
+            <idcible>3</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Ross</name>
+            <logo>icones/ross.jpg</logo>
+            <seuil>500000</seuil>
+            <idcible>4</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Monica</name>
+            <logo>icones/Monica.jpg</logo>
+            <seuil>1200000</seuil>
+            <idcible>5</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chandler</name>
+            <logo>icones/Chandler.jpg</logo>
+            <seuil>10000000</seuil>
+            <idcible>6</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+      
+    </managers>
+</world>
